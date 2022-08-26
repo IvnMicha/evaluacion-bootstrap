@@ -1,13 +1,17 @@
+/* Estilos Generales*/
 * {
     box-sizing: border-box;
 }
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/*Colores*/
+
 .color1 {
     background-color: #F2A0D5;
 }
-.color2 {
+.color {
     background-color: #453159;
 }
 .color3 {
@@ -20,12 +24,16 @@ body {
     background-color: #D98C5F;
 }
 
-.caja1 {
-    background-color:  #453159;
-}
+/*Propiedades de Cajas*/
+
 .caja2 {
     border: 2px #453159 solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
 }
+
+/*Alturas*/
+
 .alto {
     height: 300px;
 }
